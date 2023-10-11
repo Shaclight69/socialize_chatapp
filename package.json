@@ -24,8 +24,6 @@
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "lodash": "^4.17.21",
-    "react": "latest",
-    "react-dom": "latest",
     "next": "latest",
     "next-auth": "^4.22.1",
     "next-cloudinary": "^4.4.0",
@@ -33,6 +31,8 @@
     "postcss": "8.4.21",
     "pusher": "^5.1.2",
     "pusher-js": "^8.0.2",
+    "react": "latest",
+    "react-dom": "latest",
     "react-hook-form": "^7.43.9",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.8.0",
@@ -48,6 +48,7 @@
     "@tailwindcss/forms": "^0.5.3",
     "@types/bcrypt": "^5.0.0",
     "@types/lodash": "^4.14.194",
+    "encoding": "^0.1.13",
     "prisma": "^4.13.0"
   }
 }
