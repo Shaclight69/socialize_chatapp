@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import Link from "next/link";
-import Image from "next/image";
 
 const SocializeIcon = () => {
   return (
@@ -20,16 +19,8 @@ const SocializeIcon = () => {
     `
       )}
     >
-      <div aria-hidden="true">
-        {/* <img className="mx-auto w-auto" src="/images/logo-1.png" alt="Logo" /> */}
-        <Image
-          height={9}
-          width={9}
-          sizes=""
-          className="shrink-0"
-          src="/images/logo-1.png"
-          alt="Logo"
-        />
+      <div className="h-9 w-9 shrink-0" aria-hidden="true">
+        <img className="mx-auto w-auto" src="/images/logo-1.png" alt="Logo" />
       </div>
     </Link>
   );
