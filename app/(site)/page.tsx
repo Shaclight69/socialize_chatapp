@@ -30,12 +30,9 @@ export default function Home() {
         </h2>
       </div>
       <div className="sm:mx-auto sm:w-full sm:max-w-md ">
-        <Image
-          height={10}
-          width={10}
-          sizes=""
-          className="mx-auto w-auto"
-          src="/images/logo.ico"
+        <img
+          className="mx-auto h-20 w-auto"
+          src="/images/logo-1.png"
           alt="Logo"
         />
         <h2
